@@ -9,7 +9,7 @@ yesBtn.addEventListener("click", () => {
   gif.src = "./images/gif.webp";
 });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
